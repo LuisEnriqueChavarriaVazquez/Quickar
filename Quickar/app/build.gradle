@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "com.luisechvzgmail.quickar"
         minSdkVersion 17
-        targetSdkVersion 27
-        versionCode 9
-        versionName '7.2'
+        targetSdkVersion 28
+        versionCode 12
+        versionName '9.1'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -27,6 +27,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     //noinspection GradleCompatible
-    implementation 'com.android.support:appcompat-v7:27.0.0'
+    ////El comentario que esta abajo contiene una version con distinto appCompaq
+    implementation 'com.android.support:appcompat-v7:28.0.0'
     testImplementation 'junit:junit:4.12'
+
 }
