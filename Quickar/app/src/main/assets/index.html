@@ -9,12 +9,17 @@
   <link rel="stylesheet" type="text/css" href="css/estilos.css">
   <link rel="stylesheet" type="text/css" href="css/materialize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" href="css/cards.css">
+
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
 
   <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
   <link rel="stylesheet" href="owlcarousel/owl.theme.default.css">
 </head>
 
-<body class="grey lighten-4">
+<body class=" blue darken-3">
 
 
   <!-- menu del index -->
@@ -42,7 +47,8 @@
                     class="new badge blue accent-3" data-badge-caption="C&oacute;digos.">200+</span></a></li>
               <li><a href="piezas-seleccion.html"><i
                     class="icon-time_to_leave icon_menu_size blue-text truncate"></i>Sensores.</a></li>
-              <li><a href="temas-seleccion.html"><i class="icon-chrome_reader_mode icon_menu_size blue-text"></i>Temas.</a></li>
+              <li><a href="temas-seleccion.html"><i
+                    class="icon-chrome_reader_mode icon_menu_size blue-text"></i>Temas.</a></li>
             </ul>
           </div>
         </li>
@@ -63,40 +69,21 @@
   </ul>
 
 
+  <div id="circularMenu" class="circular-menu">
 
-  <div class="fab-container-mine">
-    <div class="fab fab-icon-holder-mine waves-effect waves-light blue accent-3">
+    <a class="floating-btn waves-effect waves-light"
+      onclick="document.getElementById('circularMenu').classList.toggle('active');">
       <i class="icon-add"></i>
-    </div>
+    </a>
 
-    <ul class="fab-options">
-      <li>
-        <span class="fab-label">Codigos de OBDII.</span>
-        <a href="obd_genericos.html">
-          <div class="fab-icon-holder-mine waves-effect waves-light">
-            <i class="icon-settings_input_hdmi"></i>
-          </div>
-        </a>
-      </li>
-      <li>
-        <span class="fab-label">Componentes y sensores.</span>
-        <a href="piezas-seleccion.html">
-          <div class="fab-icon-holder-mine waves-effect waves-light">
-            <i class="icon-time_to_leave"></i>
-          </div>
-        </a>
-      </li>
-      <li>
-        <span class="fab-label">Lecciones.</span>
-        <a href="temas-seleccion.html">
-          <div class="fab-icon-holder-mine waves-effect waves-light">
-            <i class="icon-chrome_reader_mode"></i>
-          </div>
-        </a>
-      </li>
-    </ul>
+    <menu class="items-wrapper">
+      <a href="temas-seleccion.html" class="menu-item fa fa-facebook"><i class="icon-chrome_reader_mode"></i></a>
+      <a href="piezas-seleccion.html" class="menu-item fa fa-twitter"><i class="icon-time_to_leave"></i></a>
+      <a href="obd_genericos.html" class="menu-item fa fa-google-plus"><i class="icon-settings_input_hdmi"></i></a>
+      <a href="#" class="menu-item fa fa-linkedin"></a>
+    </menu>
+
   </div>
-
   <!-- Modal Structure -->
 
   <!--En esta seccion podemos ver el menu de la parte superior (header), donde podemos apreciar las opciones y extras ////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -276,182 +263,109 @@
   </section>
 
 
-  <!--SECTION ONE-->
-  <br><br>
-  <div class="complete"></div>
-  <div id="test1" class="col s12">
-    <div class="slider fullscreen">
-      <ul class="slides">
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////En esta seccion comienza el slider para marcas de codigos de FALLA OBDII-->
 
-        <li class="z-depth-2">
-          <img src="img/SL-ONE.png"> <!-- random image -->
-          <div class="caption center-align"><br><br><br><br>
-            <p class="strongly white-text">Dinos tu opini&oacute;n.
-              &nbsp; <a class="btn white blue-text hoverable z-depth-5"
-                href="https://play.google.com/store/apps/details?id=com.luisechvzgmail.quickar"><i
-                  class="icon-stargrade"></i></a>
-            </p>
-          </div>
-        </li>
-
-
-        <li class="z-depth-2">
-          <img src="img/SL-TWO.png">
-          <div class="caption center-align"><br><br><br><br>
-            <p class="strongly white-text">Califiquenos.
-              &nbsp; <a class="btn white blue-text hoverable z-depth-5"
-                href="https://play.google.com/store/apps/details?id=com.luisechvzgmail.quickar"><i
-                  class="icon-stargrade"></i></a>
-            </p>
-          </div>
-        </li>
-
-      </ul>
-    </div>
-
-    <div class="title_lb_white_large blue darken-2 white-text thiner hide-on-med-and-up flow-text">Cursos recomendados.
-    </div>
-
-
-    <div class="owl-one owl-carousel owl-theme contank contankleftoh blue darken-2 hide-on-med-and-up">
-      <a href="menu_motor.html">
-        <div class="blue-text item tiny chip white z-depth-1 waves-effect waves-light">Motores.</div>
-      </a>
-      <a href="menu_engrase.html">
-        <div class="blue-text item tiny chip white z-depth-1 waves-effect waves-light">Engrase.</div>
-      </a>
-      <a href="menu_direccion.html">
-        <div class="blue-text item tiny chip white z-depth-1 waves-effect waves-light">Direcci&oacute;n.</div>
-      </a>
-      <a href="menu_suspension.html">
-        <div class="blue-text item tiny chip white z-depth-1 waves-effect waves-light">Suspensi&oacute;n.</div>
-      </a>
-      <a href="menu_frenos.html">
-        <div class="blue-text item tiny chip white z-depth-1 waves-effect waves-light">Frenos.</div>
-      </a>
-    </div>
-    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////En esta seccion comienza el slider para marcas de codigos de FALLA OBDII-->
-
-
-    <div class="title_lb_white_large grey lighten-4 thiner blue-text flow-text">Codigos de falla OBD2.</div>
-
-
-    <div class="center-align contanker grey lighten-4 row ">
-      <a href="obd_genericos.html">
-        <div class="z-depth-3 brands-configuration fondo_gral waves-effect waves-blue"></div>
-      </a>
-    </div>
-
-
-    <!-- <div class="owl-three owl-carousel owl-theme contank contankleftoh grey lighten-4">
  
-    Segundo item
- 
-      <div class="item margin-down-bigger center-align">
-        <div class="z-depth-3 brands-configuration fondo_gral waves-effect waves-blue"></div>
-      </div>
-  Segundo item
- 
-      <div class="item margin-down-bigger center-align">
-        <div class="z-depth-3 brands-configuration fondo_nissan waves-effect waves-blue"></div>
-      </div>
-  Segundo item
- 
-      <div class="item margin-down-bigger">
+  <br><br><br><br><br><br>
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////En esta seccion comienza el slider para marcas de codigos de FALLA OBDII-->
+    <div class="title_lb_white_large">Contenidos.</div>
+    
+    <div class="carru contank_zero blue darken-3">
       
-      <div class="center-align"><br>
-        <a href="obd_genericos.html" class="blue-grey-text">M&aacute;s marcas.&nbsp; <div class="btn blue accent-2 waves-effect z-depth-3 truncate"><i class="icon-arrow_forward white-text"></i></a>
-      </div>
-          </div> -->
+      <!-- Primer item -->
+      <div class="margin-down-bigger">
 
-
-  </div>
-  </div>
-
-
-  <div class="title_lb_white_large grey thiner blue-text flow-text">Temas destacados.</div>
-
-
-  <div class="owl-two owl-carousel owl-theme grey contank_zero">
-
-    <!-- Primer item -->
-    <div class="item margin-down-bigger">
-
-      <a class="linked" href="menu_motor.html">
-        <div class="card big z-depth-2">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="img/CARD-MOTOR.png">
-          </div>
-          <div class="card-content card-content-shorter center-align">
-            <h3 class="activator grey-text text-darken-2 huge center card-content-title-shorter"><b>Motor.</b></h3>
-            <br>
-
-          </div>
-        </div>
-      </a>
-
-    </div>
-
-    <!-- Segundo item -->
-    <div class="item margin-down-bigger">
-
-      <a class="linked" href="menu_transmision.html">
-        <div class="card big z-depth-2">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="img/CARD-TRANSMISION.png">
-          </div>
-          <div class="card-content card-content-shorter  center-align">
-            <h3 class="activator grey-text text-darken-2 huge center card-content-title-shorter truncate">
-              <b>Transmisiones.</b></h3>
-            <br>
-
-          </div>
-        </div>
-      </a>
-
-    </div>
-
-    <!--MORE-->
-
-    <div class="item margin-down-bigger">
-
-      <div class="row">
-        <div class="col s6 m6 l6">
-          <a href="temas-seleccion.html">
-            <div class="card contank z-depth-1">
-              <div class="card-content white-text center-align">
-                <span class="card-title center-align blue-grey-text"><br>M&aacute;s <br><br> temas <br><br><br></span>
-                <br><br>
-                <div class="btn waves-effect waves-light z-depth-2 blue accent-2 white-text"><i
-                    class="icon-arrow_forward"></i> </div>
-              </div><br>
-            </div>
+        <div class="wrapper">
+          <a href="!#">
+            <div class="clash-card wizard">
+              <div class="clash-card__image clash-card__image--wizard">
+                <img src="img/backgrounds/element4.png" alt="wizard" />
+              </div>
+              <div class="clash-card__unit-name">Mantenimiento.</div>
+              <div class="clash-card__unit-description black-text left-align">
+                En esta sección encontraras muchos articulos sobre mantenimiento en general para los vehículos, asi como
+                procedimientos básicos.
+              </div>
+            </div> <!-- end clash-card wizard-->
           </a>
-        </div>
+        </div> <!-- end wrapper -->
+        
       </div>
-
+      
+      <!-- Segundo item -->
+      <div class="margin-down-bigger">
+        
+        <div class="wrapper">
+          <a href="temas-seleccion.html">
+            <div class="clash-card goblin">
+              <div class="clash-card__image clash-card__image--goblin">
+                <img src="img/backgrounds/element2.png" alt="goblin" />
+              </div>
+            <div class="clash-card__unit-name">Cursos teóricos.</div>
+            <div class="clash-card__unit-description black-text left-align">
+              En esta sección podras aprender conceptos teóricos básicos sobre el funcionamiento de los vehículos desde
+              0, hasta un nivel suficiente.
+            </div>
+          </div> <!-- end clash-card goblin-->
+        </a>
+      </div> <!-- end wrapper -->
+      
     </div>
-
+    
+    <!--MORE-->
+    
+    <div class="margin-down-bigger">
+      
+      <div class="wrapper">
+        <a href="obd_genericos.html">
+          <div class="clash-card giant">
+            <div class="clash-card__image clash-card__image--giant">
+              <img src="img/backgrounds/element3.png" alt="giant" />
+            </div>
+            <div class="clash-card__unit-name">Códigos OBDII.</div>
+            <div class="clash-card__unit-description black-text left-align">
+              Realize busquedas de los códigos de falla genéricos más comúnes para aprender sobre sus posibles causas y
+              soluciones disponibles.
+            </div>
+          </div> <!-- end clash-card giant-->
+        </a>
+      </div> <!-- end wrapper -->
+    </div>
+    
+    <div class="margin-down-bigger">
+      <div class="wrapper">
+        <a href="temas-seleccion.html">
+          <div class="clash-card archer">
+            <div class="clash-card__image clash-card__image--archer">
+              <img src="img/backgrounds/element1.png" alt="archer" />
+            </div>
+            <div class="clash-card__unit-name">Sensores.</div>
+            <div class="clash-card__unit-description black-text left-align">
+              Aquí podras aprender sobre los diversos sensores más comúnes con que los vehículos cuentan y como es su
+              funcionamiento en general.
+            </div>
+          </div> <!-- end clash-card archer-->
+        </a>
+      </div> <!-- end wrapper -->
+    </div>
+    
   </div>
-
-
-
-
-
+  
+  
+  
+  
   <!--TERCERA parte con contenidos para utilizar-->
-
-
-
+  <br>
   <div class="contank blue-grey lighten-4 row">
-    <div class="title_lb_white_large blue-grey lighten-4 thiner blue-grey-text flow-text">Componentes y sensores.</div>
-
-
+    <div class="title_lb_white_large blue-grey lighten-4 thiner blue-grey-text">Recomendados.</div>
+    
+    
     <!-- Primer item -->
     <div class="col s6 m3 l2 xl1">
-
+      
       <a class="linked" href="comp_MAP.html">
         <div class="card small z-depth-3">
-          <div class="card-image waves-effect waves-blue">
+          <div class="card-image waves-effect waves-light">
             <img class="activator" src="img/cont/sensor/MAPBANNER.jpeg">
           </div>
           <div class="card-content center-align">
@@ -470,7 +384,7 @@
 
       <a class="linked" href="comp_oxigeno.html">
         <div class="card small z-depth-3">
-          <div class="card-image waves-effect waves-blue">
+          <div class="card-image waves-effect waves-light">
             <img class="activator" src="img/cont/sensor/OBANNER.jpeg">
           </div>
           <div class="card-content center-align">
@@ -491,11 +405,11 @@
         <div class="card wallpaperShowThree extraMargin add z-depth-3">
           <div class="card-content center-align">
             <h4 class=" white-text sub  strongly general_text  truncate"><b>Nos interesa tu opini&oacute;n</b></h4>
-              
+
             <p class="thiner general_text">Cuentanos en la caja de valoraciones que nuevos contenidos te
-              gustar&iacute;a ver! 
+              gustar&iacute;a ver!
             </p>
-            
+
           </div>
         </div>
       </a>
@@ -509,7 +423,7 @@
 
       <a class="linked" href="comp_MAF.html">
         <div class="card small z-depth-3">
-          <div class="card-image waves-effect waves-blue">
+          <div class="card-image waves-effect waves-light">
             <img class="activator" src="img/cont/sensor/MAFBANNER.jpeg">
           </div>
           <div class="card-content center-align">
@@ -528,7 +442,7 @@
 
       <a class="linked" href="comp_TPS.html">
         <div class="card small z-depth-3">
-          <div class="card-image waves-effect waves-blue">
+          <div class="card-image waves-effect waves-light">
             <img class="activator" src="img/cont/sensor/TPSBANNER.jpeg">
           </div>
           <div class="card-content center-align">
@@ -544,7 +458,7 @@
 
     <div class="col s12 m12 l12 center-align">
       <a href="piezas-seleccion.html" class="blue-grey-text">Ver mas componentes. &nbsp; <div
-          class="btn white waves-effect waves-blue z-depth-3 truncate"><i class="icon-arrow_forward blue-text"></i></a>
+          class="btn white waves-effect waves-light z-depth-3 truncate"><i class="icon-arrow_forward blue-text"></i></a>
     </div>
 
     <div class="title_lb_white_large blue-grey lighten-4 thiner white-text"></div>
@@ -552,6 +466,8 @@
 
   </div>
   </div>
+
+
 
   <!--Fin del menu dinamico//////////////////////////////////////////////////////////////////////////////-->
   <!--aqui podemos encontrar el footer en el cual podemos ver toda la informacion para el cliente y hasta probablemente se puedan poner algunos banners con publicidad o algo por el estilo... FOOTER-->
@@ -564,6 +480,7 @@
   <script type="text/javascript" src="js/materialize.js"></script>
   <script type="text/javascript" src="js/headroom.min.js"></script>
   <script type="text/javascript" src="owlcarousel/owl.carousel.js"></script>
+  <script src="slick/slick.js"></script>
 
 </body>
 

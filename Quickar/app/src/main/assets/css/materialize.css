@@ -4758,7 +4758,7 @@ small {
   transition: -webkit-box-shadow .25s;
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
-  border-radius: 8px;
+  border-radius: 30px;
 }
 
 .card .card-title {
@@ -4776,7 +4776,7 @@ small {
 
 .card.small .card-image, .card.medium .card-image, .card.large .card-image {
   max-height: 65%;
-
+  border-radius: 30px 30px 0 0;
   overflow: hidden;
 }
 
@@ -4888,7 +4888,7 @@ small {
 
 .card .card-image img {
   display: block;
-  border-radius: 8px 8px 0 0;
+  border-radius: 30px 30px 0 0;
   position: relative;
   left: 0;
   right: 0;

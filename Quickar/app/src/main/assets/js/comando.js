@@ -12,8 +12,10 @@ $(document).ready(function()   {
             dist: -500,
             shift: 10
         });
+        
 
 });
+
 
 $(document).ready(function(){
 
@@ -68,49 +70,19 @@ $('.modal').modal();
 
 
 //SLIDER DE PRODUCTOS
-
-
-$('.owl-one').owlCarousel({
-    loop:false,
-    dots:false,
-    margin:10,
-    autoWidth:true,
-    center:false,
-    smartsSpeed: 80000,
-    responsive:{
-        600:{
-            items:3
-        }
-    }
-});
-
-$('.owl-two').owlCarousel({
-    center:true,
-    items:1.5,
-    loop:false,
-    dots:false,
-    smartsSpeed: 100000,
-    margin:10,
-    responsive:{
-        600:{
-            items:3
-        }
-    }
-});
-
-$('.owl-three').owlCarousel({
-    center:true,
-    items:3,
-    loop:false,
-    dots:false,
-    smartsSpeed: 100000,
-    margin:0,
-    responsive:{
-        600:{
-            items:5
-        }
-    }
-});
+$('.carru').slick({
+  dots: false,
+  infinite: false,
+  speed: 400,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true,
+  adaptiveHeight: true,
+  swipeable: true,
+  slidesToScroll: true,
+  nextArrow: '',
+  prevArrow: ''
+  });
 
 });
 
