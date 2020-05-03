@@ -75,7 +75,10 @@ padding:0px;}
 }
 
 
-
+/*Sidebar*/
+.ultraUp{
+	z-index: 100000000;
+}
 
 .ultra{
 	padding-top: 100px;
@@ -245,12 +248,11 @@ background-color:#2980b9;}
 .title_lb_white_large{
 		color:rgb(255, 255, 255);
 		height: 40px;
-		font-size: 30px;
-		margin-left: 10px;
-		font-weight: 400;
+		font-size: 25px;
+		font-weight: 600;
 		text-align: left;
-		   padding: 10px;
-		   z-index: 99999;
+		padding: 20px 10px 10px 20px;
+		z-index: 99999;
 		display: flex; align-items: center; justify-content: left; flex-direction: row;}
 .title_lb_gray{
 		color:#263238;
@@ -306,13 +308,28 @@ background-color:#2980b9;}
 }
 
 .border_all{
-	border-radius: 15px;
+	border-radius: 15px !important;
+}
+
+.border_all_btn{
+	border-radius: 5px !important;
+}
+
+.border_all_search{
+	border-radius: 5px;
+	
 }
 
 .extraMargin{
 	margin: 10px;
 }
 
+.txt-button{
+	position: relative;
+	top: -3.8px;
+	font-weight: 500;
+	padding-left: 5px;
+}
 
 /*here is the class from the titles*/
 
