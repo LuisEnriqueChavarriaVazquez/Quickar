@@ -231,6 +231,18 @@ background-color:#2980b9;}
 	font-family: thiner;
 	font-size: 25px;
 	display: flex; align-items: center; justify-content: center; flex-direction: row;}
+
+	.title_lb_article{
+		color:#424242 ;
+		background-color:#bdbdbd ;
+		font-weight: 900;
+		text-align: center;
+		padding: 10px;
+		font-family: thiner;
+		font-size: 25px;
+		margin-top: 0px;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;}
+
 .title_lb_white{
 		color:#01579B;
 		height: 35px;

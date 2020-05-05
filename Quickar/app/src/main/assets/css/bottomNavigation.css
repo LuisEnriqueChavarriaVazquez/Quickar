@@ -42,10 +42,11 @@
 
 .textFooter{ 
     font-family: "thiner" !important; 
-    font-size: 14px !important;
-    font-weight: 600;
+    font-size: 12px !important;
+    font-weight: 200;
     font-style: normal;
     text-transform: none;
+    text-align: center;
 }
 
 .iconFooterStyle{

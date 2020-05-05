@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('#cargador').fadeOut(4000);
+    $('#cargador').fadeOut(2000);
     $('.parallax').parallax();
     //trigger menu
 
@@ -111,6 +111,6 @@ document.addEventListener("DOMContentLoaded", function () {
     $('.preloader').delay(10000).fadeOut('fast');
 
     $('.preloader')
-        .delay(5000)
+        .delay(3000)
         .fadeOut();
 });
