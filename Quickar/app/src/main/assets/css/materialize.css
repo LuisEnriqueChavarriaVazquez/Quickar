@@ -5800,6 +5800,10 @@ button.btn-floating {
   will-change: bottom, opacity;
 }
 
+.bottom-sheet-obd{
+  max-height: 85% !important;
+}
+
 .collapsible {
   border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
