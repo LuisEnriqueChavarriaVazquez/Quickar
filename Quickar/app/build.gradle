@@ -7,8 +7,8 @@ android {
         applicationId "com.luisechvzgmail.quickar"
         minSdkVersion 17
         targetSdkVersion 28
-        versionCode 12
-        versionName '9.1'
+        versionCode 13
+        versionName '10.0'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

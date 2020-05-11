@@ -19,19 +19,36 @@ $(document).ready(function () {
 
 });
 
+//Aqui se agrega la parte de los favoritos
+$(document).ready(function () {
+    /*var lovedTitle = ["Sensor CKP", "Sensor CMP", "Sensor ECT", "Sensor EGR", "Sistema Evaporativo"];
+    var lovedUrl = [];
+    var lovedOnes = document.getElementsByClassName("love");
+
+    function loveSth() {
+        var URLactual = window.location;
+        for(var k = 0; k <= lovedOnes.length; k++){
+            console.log(URLactual);
+            lovedUrl.push(URLactual);
+        }
+    }
+
+    lovedOnes.onclick = loveSth();*/
+});
+
 //Los tabs nos envian a otras paginas
 $(document).ready(function () {
     var tabsPuchables = document.getElementsByClassName("tabsPuchables");
-    $(tabsPuchables[0]).click(function () {
+    /*$(tabsPuchables[0]).click(function () {
         window.open("soluciones.html", "_self");
-    });
-    $(tabsPuchables[1]).click(function () {
+    });*/
+    $(tabsPuchables[0]).click(function () {
         window.open("temas-seleccion.html", "_self");
     });
-    $(tabsPuchables[2]).click(function () {
+    $(tabsPuchables[1]).click(function () {
         window.open("obd_genericos.html", "_self");
     });
-    $(tabsPuchables[3]).click(function () {
+    $(tabsPuchables[2]).click(function () {
         window.open("piezas-seleccion.html", "_self");
     });
 });

@@ -31,7 +31,7 @@
  .clash-card__image--archer {
 	 background: url('../img/backgrounds/back.jpg');
 	 background-repeat: no-repeat;
-	 background-position: center;
+	 background-attachment: fixed;
      background-size: cover;
      
 }
@@ -44,7 +44,7 @@
  .clash-card__image--giant {
 	 background: url('../img/backgrounds/back.jpg');
 	 background-repeat: no-repeat;
-	 background-position: center;
+	 background-attachment: fixed;
      background-size: cover;
      
 }
@@ -57,7 +57,7 @@
  .clash-card__image--goblin {
 	 background: url('../img/backgrounds/back.jpg');
 	 background-repeat: no-repeat;
-	 background-position: center;
+	 background-attachment: fixed;
      background-size: cover;
      
 }
@@ -70,7 +70,7 @@
  .clash-card__image--wizard {
 	 background: url('../img/backgrounds/back.jpg');
 	 background-repeat: no-repeat;
-	 background-position: center;
+	 background-attachment: fixed;
 	 background-size: cover;
 	 
      

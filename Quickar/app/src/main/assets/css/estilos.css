@@ -74,6 +74,13 @@ padding:0px;}
   height: 100%;
 }
 
+/*Acomodo del icono de corazon*/
+.iconHeartPosition{
+	position: relative;
+	top: 5px;
+	fill: #fff;
+}
+
 
 /*Sidebar*/
 .ultraUp{
