@@ -52,7 +52,7 @@ html {
 }
 
 .paddinger {
-  padding: 20px;
+  padding: 20px !important;
 }
 
 .paddingerBrowser {
@@ -172,6 +172,10 @@ contamos dentro de la pagina para diseños especificos.*/
 
 .headroom--unpinned {
   transform: translateY(-85%);
+}
+
+.noneBorder{
+  border-radius: 0px !important;
 }
 
 .border_rounder_top {
