@@ -39,16 +39,16 @@ $(document).ready(function () {
 //Los tabs nos envian a otras paginas
 $(document).ready(function () {
     var tabsPuchables = document.getElementsByClassName("tabsPuchables");
-    /*$(tabsPuchables[0]).click(function () {
-        window.open("soluciones.html", "_self");
-    });*/
     $(tabsPuchables[0]).click(function () {
-        window.open("temas-seleccion.html", "_self");
+        window.open("soluciones.html", "_self");
     });
     $(tabsPuchables[1]).click(function () {
-        window.open("obd_genericos.html", "_self");
+        window.open("temas-seleccion.html", "_self");
     });
     $(tabsPuchables[2]).click(function () {
+        window.open("obd_genericos.html", "_self");
+    });
+    $(tabsPuchables[3]).click(function () {
         window.open("piezas-seleccion.html", "_self");
     });
 });
@@ -120,6 +120,9 @@ $(document).ready(function () {
         prevArrow: ''
     });
 
+    $(function() {
+        $('.lazy').Lazy();
+    });
 
 });
 
